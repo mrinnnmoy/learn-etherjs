@@ -7,3 +7,10 @@
         <li>and many more at Ether Js Documentation.</li>
     </li>
 </ul>
+
+<p>Interaction</p>
+<ul>
+    <li>Step 1: Open Remix IDE and write the contract given at "wallet.sol".</li>
+    <li>Step 2: Compile and select "Injected Provider" as the environment and deploy the contract.</li>
+    <li>Step 3: Write the code from "interactionSC.js" and run "node interactionSC.js" and you will get the desired outputs in the terminal.</li>
+</ul>
