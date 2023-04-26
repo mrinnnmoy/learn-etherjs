@@ -106,7 +106,16 @@ function App() {
       const signer = provider.getSigner();
       const contract = new ethers.Contract(walletAddress, walletABI, signer);
 
-      await contract.setValue(2);
+      // Update value of the contract.
+      // await contract.setValue(2);
+
+      // Send ether from user to contract.
+      // await contract.sendEthContract({value:ethers.utils.parseEther("0.5")});
+
+      // Send ether from contract to user.
+      // await contract.sendEthUser("0x4A716017E21526A0246d49695c3817FC64c19fd5", {
+      //   value: ethers.utils.parseEther("0.25"),
+      // });
     };
     writeContract();
   }, []);
